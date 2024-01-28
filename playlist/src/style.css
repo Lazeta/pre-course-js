@@ -1,0 +1,10 @@
+div > img {
+    max-width: 57px;
+    height: 57px;
+}
+body > img { 
+    max-width: 300px;
+}
+div {
+    display: flex;
+}

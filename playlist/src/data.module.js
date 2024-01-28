@@ -1,6 +1,6 @@
 export const playlist = {
     title: 'Hot hits 2000 years',
-    coverUrl: './img/coverHeader',
+    coverUrl: './img/coverHeader.jpg',
     info: {
         totalTracksCount: 10,
         totalTracksDuration: 1850,
@@ -9,7 +9,7 @@ export const playlist = {
         {
             titleTrack: 'Sonne',
             executor: 'Rammstein',
-            fileUrl: './song/50_Cent_-_Candy_Shop_(Feat._Olivia).mp3',
+            fileUrl: './song/1.mp3',
             coverUrlTrack: './img/Sonne.jpg',
             years: '2001',
             isHit: 'true',
@@ -17,7 +17,7 @@ export const playlist = {
         {
             titleTrack: 'Du hast',
             executor: 'Rammstein',
-            fileUrl: './song/50_Cent_-_In_Da_Club.mp3',
+            fileUrl: './song/2.mp3',
             coverUrlTrack: './img/Du_hast.jpg',
             years: '1997',
             isHit: 'false',
@@ -25,7 +25,41 @@ export const playlist = {
         {
             titleTrack: 'Deutschland',
             executor: 'Rammstein',
-            fileUrl: './song/50_Cent_feat._2Pac_-_G.A.N.G.S.T.A.mp3',
+            fileUrl: './song/3.mp3',
+            coverUrlTrack: './img/Deutschland.jpg',
+            years: '2019',
+            isHit: 'true',
+        },
+    ],
+}
+export const playlist2 = {
+    title: 'Hot hits 2000 years',
+    coverUrl: './img/coverHeader.jpg',
+    info: {
+        totalTracksCount: 10,
+        totalTracksDuration: 1850,
+    },
+    tracks: [
+        {
+            titleTrack: 'Sonne',
+            executor: 'Rammstein',
+            fileUrl: './song/1.mp3',
+            coverUrlTrack: './img/Sonne.jpg',
+            years: '2001',
+            isHit: 'true',
+        },
+        {
+            titleTrack: 'Du hast',
+            executor: 'Rammstein',
+            fileUrl: './song/2.mp3',
+            coverUrlTrack: './img/Du_hast.jpg',
+            years: '1997',
+            isHit: 'false',
+        },
+        {
+            titleTrack: 'Deutschland',
+            executor: 'Rammstein',
+            fileUrl: './song/3.mp3',
             coverUrlTrack: './img/Deutschland.jpg',
             years: '2019',
             isHit: 'true',
