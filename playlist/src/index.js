@@ -1,10 +1,8 @@
-import { playlist } from "./data.module.js"
-import { playlist2 } from "./data.module.js"
+import { playlists } from "./data.module.js"
 // import { renderPlaylists } from "./components/renderPlaylists.component.js";
 // console.log('[4 stage] index js file work!')
 
-renderPlaylist(playlist)
-renderPlaylists(playlist2);
+renderPlaylists(playlists)
 
 function renderPlaylists(inputPlaylists){
     for (let i = 0; i < inputPlaylists.length; i++) {
