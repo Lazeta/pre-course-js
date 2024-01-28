@@ -68,4 +68,3 @@ export const playlists = [
     ],
 }
 ]
-console.log('[1 stage] data loaded');
