@@ -1,6 +1,6 @@
 export const playlists = [
 {
-    title: 'Hot hits 2000 years',
+    title: 'Hip Hop Hits',
     coverUrl: './img/coverHeader.jpg',
     info: {
         totalTracksCount: 10,
@@ -34,7 +34,7 @@ export const playlists = [
     ],
 },
 {
-    title: 'Hot hits 2000 years',
+    title: 'Music 1980',
     coverUrl: './img/coverHeader.jpg',
     info: {
         totalTracksCount: 10,

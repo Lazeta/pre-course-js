@@ -5,6 +5,3 @@ div > img {
 body > img { 
     max-width: 300px;
 }
-div {
-    display: flex;
-}

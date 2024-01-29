@@ -5,4 +5,3 @@ export function renderPlaylist(playlistForRendering){
     renderPlaylistHeader(playlistForRendering);
     renderPlaylistTracks(playlistForRendering.tracks);
 }
-console.log('[2 stage] renderPlaylist work')
