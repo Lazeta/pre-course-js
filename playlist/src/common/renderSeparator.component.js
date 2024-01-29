@@ -1,3 +1,5 @@
 export function renderSeparator() {
-    document.body.append(document.createElement("hr"));
+    const separatorElement = document.createElement("hr");
+    separatorElement.style = 'border: 1px dashed red';
+    document.body.append(separatorElement);
 }
